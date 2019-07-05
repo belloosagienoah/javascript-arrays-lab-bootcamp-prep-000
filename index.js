@@ -31,7 +31,7 @@ function appendKitten(name) {
 console.log(appendKitten("Broom"))
 
 function prependKitten(name) {
-  return [name, ...kittens]; // [ 'Garfield', 'Milo', 'Otis', 'Garfield' ]
+  return [name, ...kittens]; // [ 'Arnold', 'Milo', 'Otis', 'Garfield' ]
 }
 console.log(prependKitten("Garfield"))
 
