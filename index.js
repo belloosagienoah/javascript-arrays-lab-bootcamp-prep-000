@@ -33,7 +33,7 @@ console.log(appendKitten("Broom"))
 function prependKitten(name) {
   return [name, ...kittens]; // [ 'Arnold', 'Milo', 'Otis', 'Garfield' ]
 }
-console.log(prependKitten("Garfield"))
+console.log(prependKitten("Arnold"))
 
 function removeLastKitten() {
   return kittens.slice(0, kittens.length - 1); // [ 'Milo', 'Otis' ]
